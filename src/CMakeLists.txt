@@ -15,6 +15,7 @@ set(HEADERS
     search_result.h
     tinyxml2.h
     xmllogger.h
+    viewer_logger.h
 )
 
 set(SOURCES
@@ -23,6 +24,7 @@ set(SOURCES
     search.cpp
     tinyxml2.cpp
     xmllogger.cpp
+    viewer_logger.cpp
 )
 
 add_executable(SIPP ${HEADERS} ${SOURCES} main.cpp)

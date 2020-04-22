@@ -122,14 +122,13 @@ bool XmlLogger::write_to_xml(const char *filename, const Mission &mission) {
     if (!write_result(root, mission.search_result))
         return false;
 
-    if (!mission.search_result.path_found)
-        return true;
+    if (mission.search_result.path_found) {
+        if (!write_summary(root, mission.search_result))
+            return false;
 
-    if (!write_summary(root, mission.search_result))
-        return false;
-
-    if (!write_path(root, mission.search_result.path))
-        return false;
+        if (!write_path(root, mission.search_result.path))
+            return false;
+    }
 
     doc.SaveFile(filename);
     return true;

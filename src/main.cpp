@@ -2,6 +2,7 @@
 #include <algorithm>
 
 #include "mission.h"
+#include "viewer_logger.h"
 #include "xmllogger.h"
 
 int main(int argc, char *argv[]) {
@@ -35,6 +36,7 @@ int main(int argc, char *argv[]) {
         std::cerr << "Error while writing to xml" << std::endl;
         return 1;
     }
+    ViewerLogger().write_to_file((filename.substr(0, filename.size() - 3) + "txt").c_str(), mission);
 
     std::cerr << "Success" << std::endl;
 
