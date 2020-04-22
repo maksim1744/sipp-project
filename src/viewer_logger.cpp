@@ -35,6 +35,9 @@ void ViewerLogger::write_map(std::ofstream &fout, const Map &map) {
     }
     fout << "rect f=0 c=(" << (double)map.width / 2 << "," << (double)map.height / 2 << ") s=("
          << map.width << "," << map.height << ") col=(0,0,0)\n";
+
+    fout << "circle f=1 col=(0,255,0) r=0.2 c=(" << 0.5 + map.startx << "," << 0.5 + map.starty << ")\n";
+    fout << "circle f=1 col=(0,255,0) r=0.2 c=(" << 0.5 + map.finishx << "," << 0.5 + map.finishy << ")\n";
 }
 
 void ViewerLogger::write_objects(std::ofstream &fout, const Mission &mission) {
@@ -46,6 +49,12 @@ void ViewerLogger::write_objects(std::ofstream &fout, const Mission &mission) {
     }
     int total_steps = (int)agent_path.size() - 1;
     total_steps *= framerate;
+
+    for (int i = 0; i + 1 < mission.search_result.path.size(); ++i) {
+        auto from = mission.search_result.path[i];
+        auto to = mission.search_result.path[i + 1];
+        fout << "line col=(0,255,0) s=(" << 0.5 + from.x << "," << 0.5 + from.y << ") f=(" << 0.5 + to.x << "," << 0.5 + to.y << ")\n";
+    }
 
     auto interpolate = [&](const std::vector<std::pair<int, int>> &path, int tm) {
         int ind = tm / framerate;
