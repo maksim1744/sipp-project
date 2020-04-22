@@ -5,6 +5,8 @@
 
 class Map {
 public:
+    Map() {}
+
     bool is_wall(int x, int y) const;
 
     int width;

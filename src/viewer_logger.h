@@ -13,7 +13,7 @@ class ViewerLogger {
 public:
     void write_to_file(const char *filename, const Mission &mission);
 
-    const int framerate = 60;
+    const int framerate = 30;
 
 private:
     void write_map(std::ofstream &fout, const Map &map);

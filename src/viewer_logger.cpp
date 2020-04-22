@@ -5,10 +5,7 @@ void ViewerLogger::write_to_file(const char *filename, const Mission &mission) {
     fout.open(filename);
 
     write_map(fout, mission.map);
-    if (mission.search_result.path_found)
-        write_objects(fout, mission);
-    else
-        fout << "tick\nmsg path not found\n";
+    write_objects(fout, mission);
 
     fout.close();
 }
@@ -42,18 +39,25 @@ void ViewerLogger::write_map(std::ofstream &fout, const Map &map) {
 
 void ViewerLogger::write_objects(std::ofstream &fout, const Mission &mission) {
     std::vector<std::pair<int, int>> agent_path;
-    for (auto node : mission.search_result.path) {
-        for (int t = 0; t < node.time + 1; ++t) {
-            agent_path.emplace_back(node.x, node.y);
-        }
-    }
-    int total_steps = (int)agent_path.size() - 1;
-    total_steps *= framerate;
+    int total_steps;
 
-    for (int i = 0; i + 1 < mission.search_result.path.size(); ++i) {
-        auto from = mission.search_result.path[i];
-        auto to = mission.search_result.path[i + 1];
-        fout << "line col=(0,255,0) s=(" << 0.5 + from.x << "," << 0.5 + from.y << ") f=(" << 0.5 + to.x << "," << 0.5 + to.y << ")\n";
+    if (mission.search_result.path_found) {
+        for (auto node : mission.search_result.path) {
+            for (int t = 0; t < node.time + 1; ++t) {
+                agent_path.emplace_back(node.x, node.y);
+            }
+        }
+        total_steps = (int)agent_path.size() - 1;
+        total_steps *= framerate;
+
+        for (int i = 0; i + 1 < mission.search_result.path.size(); ++i) {
+            auto from = mission.search_result.path[i];
+            auto to = mission.search_result.path[i + 1];
+            fout << "line col=(0,255,0) s=(" << 0.5 + from.x << "," << 0.5 + from.y << ") f=(" << 0.5 + to.x << "," << 0.5 + to.y << ")\n";
+        }
+    } else {
+        agent_path.emplace_back(mission.map.startx, mission.map.starty);
+        total_steps = 100 * framerate;
     }
 
     auto interpolate = [&](const std::vector<std::pair<int, int>> &path, int tm) {
@@ -68,6 +72,8 @@ void ViewerLogger::write_objects(std::ofstream &fout, const Mission &mission) {
     fout << std::setprecision(5) << std::fixed;
     for (int i = 0; i <= total_steps; ++i) {
         fout << "tick\n";
+        if (!mission.search_result.path_found)
+            fout << "msg path not found\n";
         fout << "msg second: " << i / framerate << "\n";
         auto p = interpolate(agent_path, i);
         fout << "circle f=1 col=(255,0,0) r=0.3 c=(" << 0.5 + p.first << "," << 0.5 + p.second << ")\n";

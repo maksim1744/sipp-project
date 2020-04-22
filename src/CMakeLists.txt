@@ -8,19 +8,22 @@ set(CMAKE_CXX_FLAGS  "-Wfatal-errors")
 set(HEADERS
     map.h
     mission.h
+    node.h
+    node_comparator.h
     obstacle.h
     options.h
     path_node.h
     search.h
     search_result.h
     tinyxml2.h
-    xmllogger.h
     viewer_logger.h
+    xmllogger.h
 )
 
 set(SOURCES
     map.cpp
     mission.cpp
+    node_comparator.cpp
     search.cpp
     tinyxml2.cpp
     xmllogger.cpp
