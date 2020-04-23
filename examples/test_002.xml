@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <map>
+        <width>11</width>
+        <height>5</height>
+        <startx>5</startx>
+        <starty>4</starty>
+        <finishx>5</finishx>
+        <finishy>0</finishy>
+        <grid>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 1 0 1 0 0 0 0</row>
+            <row>0 0 0 0 1 0 1 0 0 0 0</row>
+            <row>0 0 0 0 1 0 1 0 0 0 0</row>
+            <row>0 0 0 1 0 0 0 1 0 0 0</row>
+        </grid>
+    </map>
+    <obstacles>
+        <obstacle>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="5" y="3"/>
+            <node x="5" y="4"/>
+            <node x="4" y="4"/>
+        </obstacle>
+    </obstacles>
+</root>

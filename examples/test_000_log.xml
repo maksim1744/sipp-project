@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <map>
+        <width>11</width>
+        <height>11</height>
+        <startx>5</startx>
+        <starty>3</starty>
+        <finishx>5</finishx>
+        <finishy>10</finishy>
+        <grid>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 1 1 0 0 1 1 1 0 0</row>
+            <row>0 0 1 1 0 0 1 1 1 0 0</row>
+            <row>0 0 0 0 1 1 0 0 0 0 0</row>
+            <row>0 0 0 0 1 1 0 0 0 0 0</row>
+            <row>0 0 0 0 1 1 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+        </grid>
+    </map>
+    <obstacles>
+        <obstacle>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+        </obstacle>
+        <obstacle>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+        </obstacle>
+        <obstacle>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+        </obstacle>
+        <obstacle>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+        </obstacle>
+        <obstacle>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+        </obstacle>
+    </obstacles>
+    <log>
+        <result>Path found</result>
+        <summary/>
+        <path>
+            <node x="5" y="3" time="0"/>
+            <node x="4" y="3" time="1"/>
+            <node x="4" y="2" time="0"/>
+            <node x="4" y="1" time="0"/>
+            <node x="3" y="1" time="1"/>
+            <node x="2" y="1" time="0"/>
+            <node x="1" y="1" time="0"/>
+            <node x="1" y="2" time="0"/>
+            <node x="1" y="3" time="0"/>
+            <node x="1" y="4" time="0"/>
+            <node x="1" y="5" time="0"/>
+            <node x="1" y="6" time="0"/>
+            <node x="1" y="7" time="0"/>
+            <node x="1" y="8" time="0"/>
+            <node x="1" y="9" time="0"/>
+            <node x="1" y="10" time="0"/>
+            <node x="2" y="10" time="0"/>
+            <node x="3" y="10" time="0"/>
+            <node x="4" y="10" time="0"/>
+            <node x="5" y="10" time="0"/>
+        </path>
+    </log>
+</root>

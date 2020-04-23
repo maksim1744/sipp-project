@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <map>
+        <width>11</width>
+        <height>11</height>
+        <startx>5</startx>
+        <starty>3</starty>
+        <finishx>5</finishx>
+        <finishy>10</finishy>
+        <grid>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 1 1 0 0 1 1 1 0 0</row>
+            <row>0 0 1 1 0 0 1 1 1 0 0</row>
+            <row>0 0 0 0 1 1 0 0 0 0 0</row>
+            <row>0 0 0 0 1 1 0 0 0 0 0</row>
+            <row>0 0 0 0 1 1 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0</row>
+        </grid>
+    </map>
+    <obstacles>
+        <obstacle>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+            <node x="1" y="1"/>
+            <node x="1" y="2"/>
+            <node x="2" y="2"/>
+            <node x="2" y="1"/>
+        </obstacle>
+        <obstacle>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="3" y="1"/>
+            <node x="3" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+        </obstacle>
+        <obstacle>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+            <node x="5" y="1"/>
+            <node x="5" y="2"/>
+            <node x="4" y="2"/>
+            <node x="4" y="1"/>
+        </obstacle>
+        <obstacle>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+            <node x="7" y="1"/>
+            <node x="8" y="1"/>
+            <node x="8" y="2"/>
+            <node x="7" y="2"/>
+        </obstacle>
+        <obstacle>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+            <node x="9" y="2"/>
+            <node x="8" y="2"/>
+            <node x="8" y="1"/>
+            <node x="9" y="1"/>
+        </obstacle>
+    </obstacles>
+</root>

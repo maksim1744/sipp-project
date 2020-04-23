@@ -1,0 +1,1004 @@
+size (11,5)
+speed 60
+width 3
+flipy
+rect f=1 c=(5.5,2.5) s=(31,25) col=(235,235,235)
+rect f=1 s=(1,1) col=(50,50,50) c=(3.5,2.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(4.5,1.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(4.5,2.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(4.5,3.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(6.5,1.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(6.5,2.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(6.5,3.5)
+rect f=1 s=(1,1) col=(50,50,50) c=(7.5,2.5)
+line s=(0,0) f=(0, 5) col=(200,200,200)
+line s=(1,0) f=(1, 5) col=(200,200,200)
+line s=(2,0) f=(2, 5) col=(200,200,200)
+line s=(3,0) f=(3, 5) col=(200,200,200)
+line s=(4,0) f=(4, 5) col=(200,200,200)
+line s=(5,0) f=(5, 5) col=(200,200,200)
+line s=(6,0) f=(6, 5) col=(200,200,200)
+line s=(7,0) f=(7, 5) col=(200,200,200)
+line s=(8,0) f=(8, 5) col=(200,200,200)
+line s=(9,0) f=(9, 5) col=(200,200,200)
+line s=(10,0) f=(10, 5) col=(200,200,200)
+line s=(11,0) f=(11, 5) col=(200,200,200)
+line s=(0,0) f=(11, 0) col=(200,200,200)
+line s=(0,1) f=(11, 1) col=(200,200,200)
+line s=(0,2) f=(11, 2) col=(200,200,200)
+line s=(0,3) f=(11, 3) col=(200,200,200)
+line s=(0,4) f=(11, 4) col=(200,200,200)
+line s=(0,5) f=(11, 5) col=(200,200,200)
+rect f=0 c=(5.5,2.5) s=(11,5) col=(0,0,0)
+circle f=1 col=(0,255,0) r=0.2 c=(5.5,4.5)
+circle f=1 col=(0,255,0) r=0.2 c=(5.5,0.5)
+line col=(0,255,0) s=(5.5,4.5) f=(6.5,4.5)
+line col=(0,255,0) s=(6.5,4.5) f=(5.5,4.5)
+line col=(0,255,0) s=(5.5,4.5) f=(5.5,3.5)
+line col=(0,255,0) s=(5.5,3.5) f=(5.5,2.5)
+line col=(0,255,0) s=(5.5,2.5) f=(5.5,1.5)
+line col=(0,255,0) s=(5.5,1.5) f=(5.5,0.5)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.50000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.53333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.53333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.56667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.56667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.60000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.60000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.63333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.63333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.66667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.66667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.70000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.70000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.73333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.73333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.76667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.76667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.80000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.80000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.83333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.83333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.86667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.86667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.90000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.90000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.93333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.93333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(5.96667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,1.96667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.00000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.00000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.03333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.03333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.06667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.06667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.10000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.10000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.13333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.13333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.16667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.16667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.20000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.20000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.23333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.23333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.26667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.26667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.30000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.30000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.33333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.33333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.36667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.36667)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.40000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.40000)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.43333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.43333)
+tick
+msg second: 0
+circle f=1 col=(255,0,0) r=0.3 c=(6.46667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.46667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.50000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.53333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.56667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.60000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.63333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.66667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.70000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.73333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.76667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.80000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.83333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.86667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.90000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.93333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,2.96667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.00000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.03333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.06667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.10000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.13333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.16667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.20000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.23333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.26667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.30000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.33333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.36667)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.40000)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.43333)
+tick
+msg second: 1
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.46667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.50000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.53333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.56667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.60000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.63333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.66667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.70000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.73333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.76667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.80000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.83333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.86667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.90000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.93333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,3.96667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.00000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.03333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.06667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.10000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.13333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.16667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.20000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.23333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.26667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.30000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.33333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.36667)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.40000)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.43333)
+tick
+msg second: 2
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.46667)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.50000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.46667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.46667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.43333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.43333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.40000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.40000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.36667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.36667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.33333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.33333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.30000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.30000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.26667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.26667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.23333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.23333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.20000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.20000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.16667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.16667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.13333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.13333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.10000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.10000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.06667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.06667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.03333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.03333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(6.00000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(5.00000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.96667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.96667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.93333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.93333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.90000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.90000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.86667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.86667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.83333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.83333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.80000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.80000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.76667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.76667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.73333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.73333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.70000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.70000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.66667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.66667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.63333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.63333,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.60000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.60000,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.56667,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.56667,4.50000)
+tick
+msg second: 3
+circle f=1 col=(255,0,0) r=0.3 c=(5.53333,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.53333,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.46667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.43333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.40000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.36667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.33333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.30000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.26667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.23333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.20000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.16667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.13333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.10000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.06667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.03333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,4.00000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.96667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.93333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.90000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.86667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.83333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.80000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.76667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.73333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.70000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.66667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.63333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.60000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.56667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 4
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.53333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.46667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.43333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.40000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.36667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.33333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.30000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.26667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.23333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.20000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.16667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.13333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.10000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.06667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.03333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,3.00000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.96667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.93333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.90000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.86667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.83333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.80000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.76667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.73333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.70000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.66667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.63333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.60000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.56667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 5
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.53333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.46667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.43333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.40000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.36667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.33333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.30000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.26667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.23333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.20000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.16667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.13333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.10000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.06667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.03333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,2.00000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.96667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.93333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.90000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.86667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.83333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.80000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.76667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.73333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.70000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.66667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.63333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.60000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.56667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 6
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.53333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.46667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.43333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.40000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.36667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.33333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.30000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.26667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.23333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.20000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.16667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.13333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.10000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.06667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.03333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,1.00000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.96667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.93333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.90000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.86667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.83333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.80000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.76667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.73333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.70000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.66667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.63333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.60000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.56667)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 7
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.53333)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)
+tick
+msg second: 8
+circle f=1 col=(255,0,0) r=0.3 c=(5.50000,0.50000)
+circle f=1 col=(0,0,255) r=0.3 c=(4.50000,4.50000)

@@ -96,6 +96,7 @@ bool XmlLogger::read_obstacles(tinyxml2::XMLElement *element, std::vector<Obstac
                        abs(obstacles->back().path[i].second - obstacles->back().path[i + 1].second);
             if (dist > 1) {
                 std::cerr << "Neighboring nodes are too far" << std::endl;
+                return false;
             }
         }
     }
