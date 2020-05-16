@@ -6,6 +6,10 @@
 class SearchResult {
 public:
     bool path_found = false;
+    int length;
+    int result;
+    double time;
+    int steps;
     std::vector<PathNode> path;
 };
 

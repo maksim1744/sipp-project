@@ -59,6 +59,44 @@ void Search::generate_safe_intervals(int x, int y) {
     this->directions[std::make_pair(x, y)] = directions;
 }
 
+void Search::calculate_dijkstra_heuristic() {
+    std::vector<std::pair<int, int>> dirs = {
+        {-1, 0},
+        { 1, 0},
+        {0, -1},
+        {0,  1}
+    };
+
+    dijkstra_heuristic.assign(map->height, std::vector<int>(map->width, 1e9));
+
+    dijkstra_heuristic[map->starty][map->startx] = 0;
+
+    std::queue<std::pair<int, int>> q;
+    q.emplace(map->startx, map->starty);
+    while (!q.empty()) {
+        auto [x, y] = q.front();
+        q.pop();
+
+        for (auto [dx, dy] : dirs) {
+            int x1 = x + dx, y1 = y + dy;
+            if (!map->is_wall(x1, y1)) {
+                if (dijkstra_heuristic[y1][x1] > dijkstra_heuristic[y][x] + 1) {
+                    dijkstra_heuristic[y1][x1] = dijkstra_heuristic[y][x] + 1;
+                    q.emplace(x1, y1);
+                }
+            }
+        }
+    }
+}
+
+int Search::get_heuristic(std::pair<int, int> p) {
+    if (options->heuristic_type == Options::TYPE_DIJKSTRA) {
+        return dijkstra_heuristic[p.second][p.first];
+    } else {
+        return abs(map->finishx - p.first) + abs(map->finishy - p.second);
+    }
+}
+
 std::vector<Node> Search::get_successors(const Node &node) {
     std::vector<std::pair<int, int>> dirs = {
         {-1, 0},
@@ -75,19 +113,12 @@ std::vector<Node> Search::get_successors(const Node &node) {
     if (it_end == node_safe_intervals.end() || it_end->first > start_time)
         --it_end;
     int end_time = it_end->second;
-    // if (node.x == 5 && node.y == 10 && node.segment == 1 && false) {
-    //     std::cout << "time: " << start_time << ' ' << end_time << std::endl;
-    // }
 
     for (auto [dx, dy] : dirs) {
         int x1 = node.x + dx, y1 = node.y + dy;
 
         if (map->is_wall(x1, y1)) continue;
 
-        // if (node.x == 5 && node.y == 10 && node.segment == 1 && false) {
-        //     std::cout << "-----------------------" << std::endl;
-        //     std::cout << x1 << ' ' << y1 << std::endl;
-        // }
 
         generate_safe_intervals(x1, y1);
 
@@ -97,21 +128,6 @@ std::vector<Node> Search::get_successors(const Node &node) {
         int ind = lower_bound(safe_intervals.begin(), safe_intervals.end(), std::make_pair(start_time + 1, -1)) - safe_intervals.begin();
         if (ind != 0 && safe_intervals[ind - 1].second >= start_time + 1)
             --ind;
-        // if (node.x == 5 && node.y == 10 && node.segment == 1 && false) {
-        //     for (auto [l, r] : safe_intervals) {
-        //         std::cout << "[" << l << ", " << r << "] ";
-        //     }
-        //     std::cout << std::endl;
-        //     for (int i = 0; i < directions.size(); ++i) {
-        //         std::cout << "[ ";
-        //         for (auto [x, y] : directions[i]) {
-        //             std::cout << "(" << x << "," << y << ") ";
-        //         }
-        //         std::cout << "]  ";
-        //     }
-        //     std::cout << std::endl;
-        //     std::cout << "ind = " << ind << std::endl;
-        // }
         for (; ind < safe_intervals.size() && safe_intervals[ind].first <= end_time + 1; ++ind) {
             bool can_go = true;
             for (auto [xto, yto] : directions[ind]) {
@@ -135,9 +151,15 @@ std::vector<Node> Search::get_successors(const Node &node) {
 }
 
 void Search::start_search(const Map &map, const std::vector<Obstacle> &obstacles, const Options &options, SearchResult *search_result) {
+    auto start_time = clock();
+
     this->map = &map;
     this->obstacles = &obstacles;
     this->options = &options;
+
+    if (options.heuristic_type == Options::TYPE_DIJKSTRA) {
+        calculate_dijkstra_heuristic();
+    }
 
     search_result->path_found = false;
 
@@ -148,6 +170,7 @@ void Search::start_search(const Map &map, const std::vector<Obstacle> &obstacles
     start_node.x = map.startx;
     start_node.y = map.starty;
     start_node.segment = 0;
+    start_node.h = get_heuristic(start_node.position());
 
     generate_safe_intervals(start_node.x, start_node.y);
 
@@ -155,13 +178,11 @@ void Search::start_search(const Map &map, const std::vector<Obstacle> &obstacles
 
     Node *finish_node = nullptr;
 
-    int cnt = 0;
+    search_result->steps = 0;
 
     while (!open.empty()) {
-        ++cnt;
-        // std::cout << "open size: " << open.size() << std::endl;
+        ++search_result->steps;
         Node node = *open.begin();
-        // std::cout << node.x << ' ' << node.y << ' ' << node.segment << std::endl;
         open.erase(open.begin());
         if (close.find(node) != close.end())
             continue;
@@ -172,22 +193,17 @@ void Search::start_search(const Map &map, const std::vector<Obstacle> &obstacles
             break;
         }
         auto successors = get_successors(node);
-        // std::cout << "successors size: " << successors.size() << std::endl;
         for (auto successor : successors) {
             if (close.find(successor) != close.end())
                 continue;
             successor.parent = (Node*)&(*close.find(node));
-            successor.h = 0; // TODO
+            successor.h = get_heuristic(successor.position());
             successor.f = successor.g + successor.h * 1;
-
-            // std::cout << "{" << successor.x << ", " << successor.y << ", " << successor.segment << "}" << std::endl;
 
             open.insert(successor);
         }
-        // break;
     }
 
-    // std::cout << "cnt: " << cnt << std::endl;
 
     if (!search_result->path_found)
         return;
@@ -198,6 +214,9 @@ void Search::start_search(const Map &map, const std::vector<Obstacle> &obstacles
         finish_node = finish_node->parent;
     }
     reverse(path_preview.begin(), path_preview.end());
+
+    search_result->length = path_preview.size() - 1;
+    search_result->result = path_preview.back().g;
 
     search_result->path.clear();
     for (int i = 0; i < path_preview.size(); ++i) {
@@ -211,4 +230,6 @@ void Search::start_search(const Map &map, const std::vector<Obstacle> &obstacles
 
         search_result->path.push_back(path_node);
     }
+
+    search_result->time = (double)(clock() - start_time) / CLOCKS_PER_SEC;
 }

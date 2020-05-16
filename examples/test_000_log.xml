@@ -21,6 +21,9 @@
             <row>0 0 0 0 0 0 0 0 0 0 0</row>
         </grid>
     </map>
+    <options>
+        <heuristic>manhattan</heuristic>
+    </options>
     <obstacles>
         <obstacle>
             <node x="1" y="2"/>
@@ -234,7 +237,7 @@
     </obstacles>
     <log>
         <result>Path found</result>
-        <summary/>
+        <summary result="21" length="19" steps="59" time="0.002"/>
         <path>
             <node x="5" y="3" time="0"/>
             <node x="4" y="3" time="1"/>

@@ -7,7 +7,7 @@ class Node {
 public:
     int x, y;
     int segment;
-    double f = 0, h = 0;
+    int f = 0, h = 0;
     int g = 0;
 
     Node *parent = nullptr;

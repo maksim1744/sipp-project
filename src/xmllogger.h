@@ -21,6 +21,7 @@ public:
 private:
 
     bool read_map(tinyxml2::XMLElement *element, Map *map);
+    bool read_options(tinyxml2::XMLElement *element, Options *options);
     bool read_obstacles(tinyxml2::XMLElement *element, std::vector<Obstacle> *obstacles);
     bool check_obstacles_coordinates(const std::vector<Obstacle> &obstacles, const Map &map);
 

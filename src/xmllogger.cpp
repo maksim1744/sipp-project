@@ -17,6 +17,8 @@ bool XmlLogger::read_from_xml(const char *filename, Mission *mission) {
 
     if (!read_map(root->FirstChildElement("map"), &mission->map))
         return false;
+    if (!read_options(root->FirstChildElement("options"), &mission->options))
+        return false;
     if (!read_obstacles(root->FirstChildElement("obstacles"), &mission->obstacles))
         return false;
     if (!check_obstacles_coordinates(mission->obstacles, mission->map))
@@ -71,6 +73,28 @@ bool XmlLogger::read_map(tinyxml2::XMLElement *element, Map *map) {
         row = row->NextSiblingElement();
     }
 
+    return true;
+}
+
+bool XmlLogger::read_options(tinyxml2::XMLElement *element, Options *options) {
+    if (!element) {
+        std::cerr << "Missing tag <options>" << std::endl;
+        return false;
+    }
+    auto heuristic_element = element->FirstChildElement("heuristic");
+    if (!heuristic_element) {
+        std::cerr << "Missing tag <heuristic>" << std::endl;
+        return false;
+    }
+    std::string heuristic = heuristic_element->GetText();
+    if (heuristic == "manhattan") {
+        options->heuristic_type = Options::TYPE_MANHATTAN;
+    } else if (heuristic == "dijkstra") {
+        options->heuristic_type = Options::TYPE_DIJKSTRA;
+    } else {
+        std::cerr << "Wrong heuristic" << std::endl;
+        return false;
+    }
     return true;
 }
 
@@ -149,6 +173,10 @@ bool XmlLogger::write_result(XMLElement *element, const SearchResult &search_res
 bool XmlLogger::write_summary(XMLElement *element, const SearchResult &search_result) {
     element->InsertEndChild(doc.NewElement("summary"));
     element = element->LastChildElement("summary");
+    element->SetAttribute("result", search_result.result);
+    element->SetAttribute("length", search_result.length);
+    element->SetAttribute("steps", search_result.steps);
+    element->SetAttribute("time", search_result.time);
     return true;
 }
 
