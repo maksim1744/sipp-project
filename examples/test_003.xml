@@ -15,6 +15,9 @@
             <row>0 0 0 0 0 0 0 0 0 0 0</row>
         </grid>
     </map>
+    <options>
+      <heuristic>manhattan</heuristic>
+    </options>
     <obstacles>
         <obstacle>
             <node x="5" y="1"/>
