@@ -29,7 +29,7 @@
     </obstacles>
     <log>
         <result>Path found</result>
-        <summary result="8" length="6" steps="29" time="0.001"/>
+        <summary result="8" length="6" steps="29" time="0"/>
         <path>
             <node x="5" y="4" time="0"/>
             <node x="6" y="4" time="2"/>

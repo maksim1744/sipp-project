@@ -46602,7 +46602,7 @@
     </obstacles>
     <log>
         <result>Path found</result>
-        <summary result="54" length="50" steps="201" time="0.34799999999999998"/>
+        <summary result="54" length="50" steps="201" time="0.29699999999999999"/>
         <path>
             <node x="9" y="9" time="4"/>
             <node x="10" y="9" time="0"/>

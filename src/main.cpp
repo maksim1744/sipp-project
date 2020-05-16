@@ -6,8 +6,8 @@
 #include "xmllogger.h"
 
 int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        std::cerr << "Need exactly one file" << std::endl;
+    if (argc < 2) {
+        std::cerr << "Need a file" << std::endl;
         return 1;
     }
 
@@ -36,7 +36,12 @@ int main(int argc, char *argv[]) {
         std::cerr << "Error while writing to xml" << std::endl;
         return 1;
     }
-    ViewerLogger().write_to_file((filename.substr(0, filename.size() - 3) + "txt").c_str(), mission);
+    bool view = true;
+    for (int i = 1; i < argc; ++i)
+        if (std::string(argv[i]) == std::string("-noview"))
+            view = false;
+    if (view)
+        ViewerLogger().write_to_file((filename.substr(0, filename.size() - 3) + "txt").c_str(), mission);
 
     std::cerr << "Success" << std::endl;
 
